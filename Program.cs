@@ -27,6 +27,7 @@ app.UseSwaggerUI(c =>
 
 // Use HTTPS redirection and routing
 app.UseHttpsRedirection();
+//For mapping controllers
 app.MapControllers();
 
 app.Run();
